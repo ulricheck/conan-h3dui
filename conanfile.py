@@ -10,7 +10,7 @@ class H3DAPIConan(ConanFile):
     short_paths = True
     settings = "os", "compiler", "build_type", "arch"
     generators = "cmake"
-    exports = "FindHAPI.cmake"
+    exports = "FindUI.cmake"
     options = {"shared": [True, False]}
     default_options = "shared=True"
 
